@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PreciousFolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     
@@ -24,15 +21,15 @@
             </div>
 
             <div class="navigationLinksContainer">
-                <a href="" class="projectLink">
+                <a href="#projectSection" class="projectLink" id="projectLink">
                     <h3>My Projects</h3>
                 </a>
                 
-                <a href="" class="AboutMeLink">
+                <a href="./about.html" class="AboutMeLink">
                     <h3>About Me</h3>
                 </a>
 
-                <a href="" class="ResumeLink">
+                <a href="https://drive.google.com/file/d/1udY_4QsoIFceXRAvXUTf9UU8ijFdbMK0/view?usp=drivesdk" class="ResumeLink" target="_blank">
                     <h3>Resume</h3>
                 </a>
             </div>
@@ -42,7 +39,7 @@
         <div class="heroSectionContainer">
             <div class="heroTextContainer">
                 <div class="nameAndProfessionContainer">
-                    <div class="nameContainer">
+                    <div class="HelloNameContainer">
                         <h2>Hello! I'm Precious, a</h2>
                     </div>
         
@@ -57,7 +54,9 @@
             </div>
 
             <div class="buttonContainer">
-                <button class="connectButton">Connect With Me</button>
+                <a href="#footer">
+                    <button class="connectButton">Connect With Me</button>
+                </a>
             </div>
         </div>
     </section>
@@ -70,7 +69,7 @@
             </div>
 
             <div class="designDescriptionContainer">
-                <div class="deignDescription">I'm not your typical designer glued to an Illustrator artboard. Instead, I dive into code, fine-tuning fonts and pondering layouts with a (^_^) smile. My passion is crafting trendy yet user experiences.</div>
+                <p class="deignDescription">I'm not your typical designer glued to an Illustrator artboard. Instead, I dive into code, fine-tuning fonts and pondering layouts with a (^_^) smile. My passion is crafting trendy yet user experiences. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
         </div>
 
@@ -87,10 +86,296 @@
             </div>
 
             <div class="developmentDescriptionContainer">
-                <div class="developmentDescription">Blending design finesse with coding skills,  I craft products that merge aesthetics with technical efficiency, delivering swift and resilient solutions. I bring a unique blend of creativity and technical proficiency to ensure a seamless user experience.</div>
+                <p class="developmentDescription">Blending design finesse with coding skills,  I craft products that merge aesthetics with technical efficiency, delivering swift and resilient solutions. I bring a unique blend of creativity and technical proficiency to ensure a seamless user experience.</p>
             </div>
         </div>
     </section>
 
+
+
+    <section class="skillsSection">
+       <div class="skillsSectionMainDiv">
+            <div class="skillsTextContainer">
+                <h2>Technical Skills</h2>
+            </div>
+
+            <div class="skillIconContainer">
+                <div class="firstRowOfSkillsIcon">
+                    <img src="./Images/logos_html-5.svg" alt="">
+                    <img src="./Images/logos_css-3.svg" alt="">
+                    <img src="./Images/skill-icons_javascript.svg" alt="">
+                    <img src="./Images/skill-icons_typescript.svg" alt="">
+                    <img src="./Images/skill-icons_react-light.svg" alt="">
+                </div>
+
+                <div class="secondRowOfSkillsIcon">
+                    <img src="./Images/logos_git.svg" alt="">
+                    <img src="./Images/mage_github.svg" alt="">
+                    <img src="./Images/logos_figma.svg" alt="">
+                    <img src="./Images/Node.svg" alt="">
+                </div>
+            </div>
+       </div>
+    </section>
+
+
+    <section class="projectSection" id="projectSection">
+        <div class="projectTextAndDescriptionContainer">
+            <div class="projectTextContainer">
+                <h2>Project</h2>
+            </div>
+
+            <div class="projectdescriptionContainer">
+                <p>My Curated Architectures</p>
+            </div>
+        </div>
+
+        <div class="projectsContainer">
+            <div class="firstRowOfProjects">
+                <div class="projectContainer">
+                    <div class="imageContainerRandomQuotes">
+
+                    </div>
+
+                    <div class="titleDescriptionAndLinkContainer">
+                        <div class="titleAndDescriptionContainer">
+                            <div class="titleContainer">
+                                <h3>Random Quotes Generator</h3>
+                            </div>
+    
+                            <div class="descriptionContainer">
+                                <p>Click the button, get a quote! it's that easy! Discover simple and uplifting messages with just one click.</p>
+                            </div>
+                        </div>
+
+                        <a href="https://bit.ly/randomquotegenerator" class="viewProject" target="_blank">
+                            <p>View Project</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <div class="imageContainerUnsplash">
+
+                    </div>
+
+                    <div class="titleDescriptionAndLinkContainer">
+                        <div class="titleAndDescriptionContainer">
+                            <div class="titleContainer">
+                                <h3>Unsplash Website</h3>
+                            </div>
+    
+                            <div class="descriptionContainer">
+                                <p>A polished and professional landing page mirroring the design of the Unsplash website with precision and accuracy.
+                                </p>
+                            </div>
+                        </div>
+
+                        <a href="https://preshchukwu.github.io/Unsplash-clone/" class="viewProject" target="_blank">
+                            <p>View Project</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <div class="imageContainerNote">
+
+                    </div>
+
+                    <div class="titleDescriptionAndLinkContainer">
+                        <div class="titleAndDescriptionContainer">
+                            <div class="titleContainer">
+                                <h3>Note App</h3>
+                            </div>
+    
+                            <div class="descriptionContainer">
+                                <p>
+                                    Effortlessly capture your thoughts, ideas, and more in a user-friendly note-taking interface designed for ease of use. </p>
+                            </div>
+                        </div>
+
+                        <a href="https://preshchukwu.github.io/Note-App/" class="viewProject" target="_blank">
+                            <p>View Project</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="firstRowOfProjects">
+                <div class="projectContainer">
+                    <div class="imageContainerColorGenerator">
+
+                    </div>
+
+                    <div class="titleDescriptionAndLinkContainer">
+                        <div class="titleAndDescriptionContainer">
+                            <div class="titleContainer">
+                                <h3>Random Color Generator</h3>
+                            </div>
+    
+                            <div class="descriptionContainer">
+                                <p>Effortlessly generate diverse color palettes with a single click </p>
+                            </div>
+                        </div>
+
+                        <a href="https://preshchukwu.github.io/Color-Generator/" class="viewProject" target="_blank">
+                            <p>View Project</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <div class="imageContainerRayn">
+
+                    </div>
+
+                    <div class="titleDescriptionAndLinkContainer">
+                        <div class="titleAndDescriptionContainer">
+                            <div class="titleContainer">
+                                <h3>Rayn Landingpage</h3>
+                            </div>
+    
+                            <div class="descriptionContainer">
+                                <p>Landing page for an interior decoration agency</p>
+                            </div>
+                        </div>
+
+                        <a href="https://rayn-interiors1.vercel.app/" class="viewProject" target="_blank">
+                            <p>View Project</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <div class="imageContainerPrecious">
+
+                    </div>
+
+                    <div class="titleDescriptionAndLinkContainer">
+                        <div class="titleAndDescriptionContainer">
+                            <div class="titleContainer">
+                                <h3>Personal Website</h3>
+                            </div>
+    
+                            <div class="descriptionContainer">
+                                <p>Explore my professional online portfolio, showcasing my skills and experiences in a user-friendly and polished personal website. </p>
+                            </div>
+                        </div>
+
+                        <a href="./index.html" class="viewProject">
+                            <p>View Project</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="connectWithMeSection">
+       <div class="connectWithMeSectionContentsContainer">
+            <div class="connectWithMeTopSection">
+                <div class="connectWithMeTextContainer">
+                    <h2>Connect With Me</h2>
+                </div>
+
+                <div class="connectWithMeDescriptionTextContainer">
+                    <p>Got an idea that's begging to break free? Shoot me a message, let's craft something epic together!</p>
+                </div>
+            </div>
+
+            <div class="connectWithMeBottomSection">
+                <div class="connectWithMeBottomLeftContainer">
+                    <form action="" class="form">
+                        <div class="formContents">
+                            <div class="nameContainer">
+                                <label for="yourName"> Enter Your Name</label>
+                                <input class="nameInputField" type="text" id="yourName" name="Name" placeholder="Name">
+                            </div>
+        
+                            <div class="emailContainer">
+                                <label for="yourEmail"> Enter Your Email Address</label>
+                                <input class="emailInputField" type="email" id="yourEmail" name="email" placeholder="Email Address">
+                            </div>
+        
+                            <div class="textAreaContainer">
+                                <label for="yourMessage"> Enter Your Message</label>
+                                <textarea class="textareaInputField" name="message" id="yourMessage" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <button class="sendMessageButton"> Send Message</button>
+                        
+                    </form>
+                </div>
+
+                <div class="connectWithMeBottomRightContainer">
+
+                </div>
+            </div>
+       </div>
+        
+    </section> -->
+
+
+    <section class="footer" id="footer">
+        <div class="footerContentsContainer">
+            <div class="footerTopContentsContainer">
+                <div class="footerLeftContentsContainer">
+                    <div class="myNameContainer">
+                        <h3>PRECIOUS NWACHUKWU</h3>
+                    </div>
+
+                    <div class="myDescriptionContainer">
+                        <p>Dedicated Frontend Web Developer specializing in crafting compelling and user-friendly interfaces for websites and web applications. Committed to enhancing overall product success through seamless and intuitive frontend experiences.</p>
+                    </div>
+                </div>
+
+                <div class="footerRightContentsContainer">
+                    <div class="footerSocialTextContainer">
+                        <h3>SOCIALS</h3>
+                    </div>
+
+                    <div class="footerLinkImagesContainer">
+                        <a href="mailto:preciousnwachukwu.c@gmail.com" class="socialLink" target="_blank">
+                            <img src="./Images/basil_gmail-solid.svg" alt="">
+                        </a>
+
+                        <a href="https://github.com/Preshchukwu" class="socialLink" target="_blank">
+                            <img class="socialIcon" src="./Images/ant-design_github-outlined.svg" alt="">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/preciouschukwu/" class="socialLink" target="_blank">
+                            <img src="./Images/bi_linkedin.svg" alt="">
+                        </a>
+
+                        <a href="https://twitter.com/Presh_chukwu" class="socialLink" target="_blank">
+                            <img src="./Images/pajamas_twitter.svg" alt="">
+                        </a>
+
+                        <a href="https://www.behance.net/preciouschukwu" class="socialLink" target="_blank">
+                            <img src="./Images/mage_behance.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerBottomContentsContainer">
+                <div class="footerLineContainer">
+                    <hr class="line">
+                </div>
+
+                <div class="copyRightContainer">
+                    <p>&copy 2024. Made by Precious Nwachukwu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./index.js"></script>
 </body>
 </html>
