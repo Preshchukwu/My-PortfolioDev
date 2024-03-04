@@ -1104,6 +1104,7 @@ hr{
     }
     
     .deignDescription{
+        text-align: center;
         line-height: 24px;
         color: #605f5f;
     }
@@ -1133,6 +1134,7 @@ hr{
     }
     
     .developmentDescription{
+        text-align: center;
         line-height: 24px;
         color: #605f5f;
     }
