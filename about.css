@@ -315,6 +315,18 @@ hr{
     color: #ffffff;
 }
 
+.navigationLinksContainerTwo{
+    display: none;
+}
+
+.menuContainer{
+    display: none;
+}
+
+.footerTwo{
+    display: none;
+}
+
 @media (max-width: 576px){
     .headerAndHeroSection{
         width: 100%;

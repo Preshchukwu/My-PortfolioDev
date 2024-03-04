@@ -840,7 +840,19 @@ hr{
     display: none;
 }
 
+.navigationLinksContainerTwo{
+    display: none;
+}
+
+.buttonContainerTwo{
+    display: none;
+}
+
 .menuContainer{
+    display: none;
+}
+
+.footerTwo{
     display: none;
 }
 
