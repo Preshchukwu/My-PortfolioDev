@@ -1,10 +1,26 @@
-// let projectSection = document.getElementById("projectSection")
-// let projectLink = document.getElementById("projectLink")
-
-// let scroll = function(projectSection){
-//     if(projectSection){
-//         projectSection.scrollIntoView({behaviour: `smooth`})
-//     }
+"use strict";
+let menu = document.getElementById("menu");
+let navModal = document.getElementById("navigationLinksContainerTwo");
+let body = document.getElementById("body");
+let closeIcon = document.getElementById("closeIcon");
+let checkState = true;
+let showModal = function () {
+    if (checkState === true) {
+        navModal.classList.remove("navigationLinksContainerTwo");
+        navModal.classList.add("navigationLinksContainerTwoVisible");
+        checkState = false;
+    }
+    else if (checkState === false) {
+        navModal.classList.remove("navigationLinksContainerTwoVisible");
+        navModal.classList.add("navigationLinksContainerTwo");
+        checkState = true;
+    }
+};
+// let hideModal = function(){
+//     if(checkState === false){
+//         navModal.classList.remove("navigationLinksContainerTwoVisible")
+//         navModal.classList.add("navigationLinksContainerTwo")
+//     }else if()
 // }
-
-// projectLink.addEventListener(`click`, scroll(projectSection))
+menu.addEventListener("click", showModal);
+closeIcon.addEventListener("click", showModal);

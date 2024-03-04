@@ -314,3 +314,365 @@ hr{
     font-size: 0.9rem;
     color: #ffffff;
 }
+
+@media (max-width: 576px){
+    .headerAndHeroSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0;
+        
+       
+    }
+    
+    
+
+    .headerContainer{
+        width: 100%;
+        height: auto;
+        padding: 32px 16px 24px 16px;
+        display: flex;
+        flex-direction: row;
+        row-gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .menuContainer{
+        width: fit-content;
+        height: fit-content;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 0.5rem;
+    }
+    
+    .imageAndNameContainer{
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nameContainer{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .nameContainer a{
+        text-decoration: none;
+    }
+
+    .navigationLinksContainer{
+        display: none;
+    
+    }
+    
+    .navigationLinksContainerTwo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2rem 3rem;
+        border-radius: 0.5rem;
+        position: absolute;
+        top: 80%;
+        left: 56%;
+        visibility: hidden;
+    }
+
+    .navigationLinksContainerTwoVisible{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: end;
+        align-items: end;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2rem 3rem 2rem 3rem;
+        border-radius: 0.5rem;
+        position: absolute;
+        top: 80%;
+        left: 56%;
+    }
+
+    .navTwoContainer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconContainer{
+        position: absolute;
+        top: 2%;
+        right: 4%;
+    }
+
+    .projectLink{
+        text-decoration: none;
+    }
+    
+    .projectLink h3{
+        color: black;
+        font-size: 1rem;
+    }
+    
+    .projectLink :hover{
+        text-decoration: underline;
+    }
+    
+    .AboutMeLink{
+        text-decoration: none;
+    }
+    
+    .AboutMeLink h3{
+        color: black;
+        font-size: 1rem;
+    }
+    
+    .AboutMeLink :hover{
+        text-decoration: underline;
+    }
+    
+    
+    .ResumeLink{
+        text-decoration: none;
+    }
+    
+    .ResumeLink h3{
+        color: black;
+        font-size: 1rem;
+    }
+    
+    .ResumeLink :hover{
+        text-decoration: underline;
+    }
+    
+    .heroSectionContainer{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 16px 140px 16px;
+    }
+    
+    .heroTextContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .nameAndProfessionContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HelloNameContainer{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .HelloNameContainer h2{
+        font-size: 2rem;
+        color: #4831D4;
+    }
+    
+    .ProfessionNameContainer{
+        width: auto;
+        height: auto;
+    }
+    
+    .ProfessionNameContainer h2{
+        font-size: 4rem;
+        color: #4831D4;
+    }
+    
+    .descriptionTextContainer{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .descriptionTextContainer p{
+        font-size: 1.1rem;
+        text-align: justify;
+        line-height: 24px;
+        color: #605f5f;
+    }
+    
+    .buttonContainer{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .buttonContainer a{
+        text-decoration: none;
+    }
+    
+    .connectButton{
+        background: none;
+        border: none;
+        padding: 1rem 4rem;
+        border: 2px solid #4831D4;
+        border-radius: 0.5rem;
+        color: #4831D4;
+        font-size: 1rem;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    
+    .connectButton:hover {
+        background: #4831D4;
+        font-size: 1rem;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    
+    .footer{
+        display: none;
+        /* width: 100%;
+        height: auto;
+        padding: 100px 120px;
+        background-color: #4831D4; */
+    }
+
+    .footerTwo{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 40px 16px 100px 16px;
+        background-color: #4831D4;
+    }
+    
+    .footerContentsContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+    
+    .footerTopContentsContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        justify-content: center;
+        align-items: start;
+    }
+    
+    .footerLeftContentsContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .myNameContainer{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .myNameContainer h3{
+        font-weight: 600;
+        color: #ffffff;
+    }
+    
+    .myDescriptionContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .myDescriptionContainer p{
+        font-size: 0.9rem;
+        color: #e8e5e5;
+    }
+    
+    .footerRightContentsContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .footerSocialTextContainer{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .footerSocialTextContainer h3{
+        font-weight: 600;
+        color: #ffffff;
+    }
+    
+    .footerLinkImagesContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .socialIcon{
+        color: #000000;
+    }
+    
+    .footerBottomContentsContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .footerLineContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    hr{
+        border: 1px solid #ffffff;
+    }
+    
+    .copyRightContainer{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .copyRightContainer p{
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+}
