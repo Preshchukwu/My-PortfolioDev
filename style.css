@@ -766,6 +766,10 @@ hr{
     border-radius: 0.5rem;
 }
 
+.nameInputField:focus{
+    border: 2px solid #4831D4;
+}
+
 .emailContainer{
     width: 100%;
     height: auto;
@@ -784,6 +788,10 @@ hr{
     border: 1px solid #605f5f;
     padding-left: 1rem;
     border-radius: 0.5rem;
+}
+
+.emailInputField:focus{
+    border: 2px solid #4831D4;
 }
 
 .textAreaContainer{
@@ -807,6 +815,10 @@ hr{
     padding-left: 1rem;
     padding-top: 1rem;
     border-radius: 0.5rem;
+}
+
+.textareaInputField:focus{
+    border: 2px solid #4831D4;
 }
 
 .sendMessageButton{
@@ -1570,7 +1582,7 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px 120px 180px 120px;
+        padding: 50px 16px;
     }
     
     .connectWithMeSectionContentsContainer{
@@ -1582,7 +1594,7 @@ hr{
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        padding: 3rem;
+        padding: 3rem 1rem;
     }
     
     .connectWithMeTopSection{
@@ -1601,17 +1613,17 @@ hr{
     }
     
     .connectWithMeTextContainer h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #4831D4;
     }
     
     .connectWithMeDescriptionTextContainer{
-        width: 60%;
+        width: 100%;
         height: auto;
     }
     
     .connectWithMeDescriptionTextContainer p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;
         text-align: center;
     }
@@ -1620,14 +1632,13 @@ hr{
         width: 100%;
         height: auto;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
-    
-    .connectWithMeBottomLeftContainer{
-        width: 50%;
-        height: auto;
+
+    .connectWithMeBottomRightContainer{
+        display: none;
     }
     
     .form{
@@ -1661,7 +1672,7 @@ hr{
     }
     
     .nameInputField{
-        width:70%;
+        width:100%;
         height: 50px;
         border: none;
         outline: none;
@@ -1681,7 +1692,7 @@ hr{
     }
     
     .emailInputField{
-        width:70%;
+        width:100%;
         height: 50px;
         border: none;
         outline: none;
@@ -1701,8 +1712,8 @@ hr{
     }
     
     .textareaInputField{
-        width:70%;
-        max-width: 70%;
+        width:100%;
+        max-width: 100%;
         height: auto;
         resize: none;
         border: none;
@@ -1734,9 +1745,8 @@ hr{
         cursor: pointer;
     }
     
-    .connectWithMeBottomRightContainer{
-        width: 40%;
-        height: 70vh;
-        background-image: url("./Images/illustration.svg");
+    .connectWithMeBottomLeftContainer{
+        width: 100%;
+        height: auto;
     }
 }
